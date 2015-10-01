@@ -150,7 +150,7 @@
 		<field>
 		<fielddescr>Attachment extension exclude</fielddescr>
 				<fieldname>attachment_extension_exclude</fieldname>
-				<description><![CDATA[This is the maximum number of files in each archive. If an archive contains more files than this, we do not try to unpack it at all.<br>
+				<description><![CDATA[This is a list of extensions which will be excluded when you enable the compression into a single zip.<br>
 									Set this value to 0 to disable this feature.]]></description>
 				<type>input</type>
 				<size>40</size>
@@ -158,7 +158,7 @@
 		<field>
 		<fielddescr>Unzip Maximum files per Archive</fielddescr>
 				<fieldname>attachment_max_per_archive</fieldname>
-				<description><![CDATA[The maximum unpacked size of each file in an archive. Bigger than this, and the file will not be unpacked.<br>
+				<description><![CDATA[The maximum number of files in an archive. Bigger than this, and the file will not be unpacked.<br>
 									Setting this value to 0 will disable this feature completely.<br>
 									<strong>Default is 0.</strong>]]></description>
 				<type>input</type>
